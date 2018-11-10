@@ -11,8 +11,7 @@ def my_each(array)
   array
 end
 
-my_each(array) do |i| #yield code block to be injected into method above
+my_each(array) do |i|
   puts i
 end
 
-array = []
