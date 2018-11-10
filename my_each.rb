@@ -14,3 +14,5 @@ end
 my_each(array) do |i| #yield code block to be injected into method above
   puts i
 end
+
+array = []
